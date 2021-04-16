@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #89CFF0;
+}
+.section {
+    margin: 5% 25%;
+}
+h1 {
+    text-align: center;
+    color: #0047AB;
+    letter-spacing: 5px;
+}
+img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+button {
+    border-radius: 100rem;
+    border: 3px solid white;
+    text-transform: uppercase;
+    background-color: #0096FF;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.2s;
+    margin: 15px 33%;
+    color: white;
+}
+button:hover {
+    background-color: #0047AB;
+    cursor: pointer;
+}
